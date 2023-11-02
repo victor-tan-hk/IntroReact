@@ -1,14 +1,14 @@
 // Default stylesheet for App.js
 import './App.css';
 
-function GoalItem(props) {
+function GoalItem({importance, children}) {
 
   // We can extract the children property from the top-level 
   // props object and use it appropriately in our component 
   // function
 
   return (
-    <li className={props.importance}>{props.children} </li>
+    <li className={importance}> Action : {children} </li>
   );
 }
 

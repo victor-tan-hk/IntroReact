@@ -1,0 +1,24 @@
+
+.box-style1 {
+    border-width: 5px;
+    border-style: dashed;
+    background: yellow;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box-style2 {
+    border-width: 5px;
+    border-style: dotted;
+    background: lightgreen;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box-style3 {
+    border-width: 5px;
+    border-style: solid;
+    background: lightblue;
+    padding: 20px;
+    margin: 20px;
+}

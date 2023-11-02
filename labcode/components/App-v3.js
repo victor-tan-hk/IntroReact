@@ -39,7 +39,7 @@ export default function App() {
   
   // <h1> is a built-in component corresponding to standard HTML
   // <Profile> is a custom (user-defined) component
-  // Name *MUST* start with capital letter to distinguish it  
+  // Name of custom component *MUST* start with capital letter to distinguish it  
   // from built-in components that appear in JSX
   return (
     <section>

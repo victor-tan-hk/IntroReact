@@ -15,6 +15,7 @@ function handleClick(e) {
 // Its extracts the target property which is one of the 
 // standard Event properties
 // https://react.dev/reference/react-dom/components/common#react-event-object-properties
+// We can then access the value property in it to get the content of the text field
 
 function handleTextInput(e) {
   console.log("You typed into the text field");
